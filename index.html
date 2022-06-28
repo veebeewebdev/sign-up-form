@@ -44,19 +44,21 @@
                             <label for="tel">PHONE NUMBER
 
                             </label>
-                            <input type="tel" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$"
-                                 required>
+                            <input type="tel"
+                                pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$"
+                                required>
                         </div>
                         <div class="flex-div">
                             <label for="password" required>PASSWORD
 
                             </label>
-                            <input type="password" class="error" required>
+                            <input type="password" class="error" pattern="(?=^.{8,}$)(?=.*\d)(?=.*[!@#$%^&*]+)(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
+                           <p class="pass-info">8+ char with at least 1 each upper/lower/num/special char</p> 
                         </div>
                         <div class="flex-div">
                             <label for="confirm-password">CONFIRM PASSWORD
                             </label>
-                            <input type="password" class="error" required>
+                            <input type="password" class="error" pattern="(?=^.{8,}$)(?=.*\d)(?=.*[!@#$%^&*]+)(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" required>
                         </div>
                         <button class="submit-button" type="submit">Create
                             account</button>
