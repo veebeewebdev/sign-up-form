@@ -1,0 +1,65 @@
+body {
+
+    margin: 0;
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+.image {
+    display: flex;
+    overflow: hidden;
+}
+.side-image {
+    height: 100vh;
+
+}
+
+.image-credit {
+    position: absolute;
+    bottom: 5vh;
+    left: 11vh;
+    font-size: 3vh;
+    color: grey;
+
+}
+
+.image-credit a {
+    text-decoration: none;
+    color: lightgray;
+
+}
+
+.logo {
+    position: absolute;
+    top: 15vh;
+    left: 23vh;
+    height: 20vh;
+
+}
+.logo-background {
+    float: inline-start;
+    display: inline-block;
+    top: 10vh;
+    height: 30vh;
+    width: 100%;
+    background-color: white;
+    opacity: 30%;
+}
+.form-outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-grow: 1;
+    /*  flex-shrink: 0; */
+    flex-basis: 60%;
+    background-color: #f8f8f8;
+}
+
+.form-inner-container {
+    flex-basis: 33%;
+    background-color: white;
+    box-shadow: 0 .25rem 10px gray;
+}

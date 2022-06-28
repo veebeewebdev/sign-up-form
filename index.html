@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <title>Sign-up form</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="image">
+                <img class="side-image"
+                    src="./images/brian-tromp-X8ejw0g0C_g-unsplash.jpg"
+                    alt="picture of phone screen showing many unread emails">
+                <div class="logo-background"></div>
+                <img class="logo" src="./images/logo.png" alt="logo">
+                <div class="image-credit">Photo by <a
+                        href="https://unsplash.com/@84media?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Brian
+                        Tromp</a> on <a
+                        href="https://unsplash.com/s/photos/email?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                </div>
+            </div>
+            <div class="form-outer-container">
+                <h1 class="cta cta-headline">Sign up!</h1>
+                <p class="cta">What's one more email in that already-overflowing
+                    inbox?</p>
+                <div class="form-inner-container">
+                    <h3>C'mon, you know you want to!</h3>
+                    <form action="thanks.html">
+                        <div class="flex-div">
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="flex-div">
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" required>
+                        </div>
+                        <div class="flex-div">
+                            <label for="email">EMAIL</label>
+                            <input type="email" required>
+                        </div>
+                        <div class="flex-div">
+                            <label for="tel">PHONE NUMBER
+
+                            </label>
+                            <input type="tel" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$"
+                                 required>
+                        </div>
+                        <div class="flex-div">
+                            <label for="password" required>PASSWORD
+
+                            </label>
+                            <input type="password" class="error" required>
+                        </div>
+                        <div class="flex-div">
+                            <label for="confirm-password">CONFIRM PASSWORD
+                            </label>
+                            <input type="password" class="error" required>
+                        </div>
+                        <button class="submit-button" type="submit">Create
+                            account</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

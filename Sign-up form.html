@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://127.0.0.1:5500/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <title>Sign-up form</title>
+    <script type="text/javascript" src="chrome-extension://bakpbgckdnepkmkeaiomhmfcnejndkbi/pesticide.js" id="pesticideJS"></script><link rel="stylesheet" href="./Sign-up form_files/styles.css"><link rel="stylesheet" type="text/css" href="chrome-extension://bakpbgckdnepkmkeaiomhmfcnejndkbi/pesticide.min.css?_cacheOverride=1656438346265" id="pesticideCSS"></head>
+    <body>
+        <div class="container">
+            <div class="image">
+                <img class="side-image" src="./Sign-up form_files/brian-tromp-X8ejw0g0C_g-unsplash.jpg" alt="picture of phone screen showing many unread emails">
+                    <div class="logo-background" style="
+    width: 67vh;
+"></div>
+                    <img class="logo" src="./Sign-up form_files/logo.png" alt="logo">
+                <div class="image-credit">Photo by <a href="https://unsplash.com/@84media?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Brian
+                        Tromp</a> on <a href="https://unsplash.com/s/photos/email?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a>
+                </div>
+            </div>
+            <div class="form-outer-container">
+                <div class="form-inner-container">
+                <form action="http://127.0.0.1:5500/index.html">
+                    <label for="first-name">First name</label>
+                    <input type="text">
+                </form>
+            </div>
+            </div>
+        </div>
+    <!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+<div id="pesticide-for-chrome-result"><p>You're hovering on = { node: <b> img</b>; classes: <b> side-image</b>; id: <b> </b>; }</p></div></body></html>
